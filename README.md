@@ -4,7 +4,6 @@
 **Architect:** Alexander Colclough (@Lex-Col)
 **Security Baseline:** GAP V1.1 (The Archangæl Expansion)
 **Platform:** ARMv9-A Confidential Compute Architecture (CCA)
-**Display Environment:** Hardware-Native Calibration (#FF000202)
 
 ---
 
