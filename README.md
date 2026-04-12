@@ -8,7 +8,7 @@
 
 ---
 
-> **NOTICE:** This architecture is governed by the **UPAL v1.10 [Archangæl Edition]**. Access to this documentation constitutes a binding agreement. Proprietary Intellectual Property of Alexander Colclough.
+> **NOTICE:** This architecture is governed by the **UPAL v1.10. Access to this documentation constitutes a binding agreement. Proprietary Intellectual Property of Alexander Colclough.
 
 ---
 
