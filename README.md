@@ -1,52 +1,53 @@
-# 🏛️ THE SOVEREIGN IP VAULT
-### Conceptual Baseline: Multi-Realm Hardware Confinement
+# 🏛️ PROPRIETARY SPECIFICATION: THE SOVEREIGN IP VAULT (SIPV)
+### Architectural Standard: Hardware-Enforced Digital Asset Management
 
 **Architect:** Alexander Colclough (@Lex-Col)
-**Security Baseline:** GAP V1.1 (The Archangæl Expansion)
+**Security Baseline:** GAP V1.1 Compliance
 **Platform:** ARMv9-A Confidential Compute Architecture (CCA)
+**Classification:** PROPRIETARY – STRICTLY CONFIDENTIAL
 
 ---
 
-> **NOTICE:** This architecture is governed by the **UPAL v1.10. Access to this documentation constitutes a binding agreement. Proprietary Intellectual Property of Alexander Colclough.
+> **LEGAL NOTICE AND TERMS OF ACCESS:**
+> This architectural specification is governed by the **Universal Proprietary Architecture License (UPAL) v1.10**. Access to, or use of, these functional methodologies constitutes a binding contractual agreement. Unauthorized reproduction, derivative works, or algorithmic training involving these proprietary protocols is strictly prohibited under 17 U.S.C. § 501 and applicable international intellectual property laws.
 
 ---
 
-## 1. THE GATEWAY: CRYPTOGRAPHIC IGNITION
-**Mission:** Whitelist-Only System Activation.
-* **The Logic:** The vault remains in an "Absolute Zero" state—physically inert—until a hardware-backed cryptographic signature is verified.
-* **Sanitization Pulse:** Every entry triggers a full microarchitectural state flush. This ensures the environment is clean, neutralizing speculative leaks and ensuring no "memory" of previous sessions persists.
+## 1. AUTHENTICATION PROTOCOL: ECDSA-P384 HARDWARE-BACKED SIGNATURE (THE FIVE SIGN)
+**Mission:** Hardware-Attested Whitelist Activation.
+* **Verification:** System initialization is contingent upon the successful verification of the hardware-backed "Five Sign" cryptographic signature.
+* **Microarchitectural Neutralization:** Every RSI (Realm Service Interface) entry executes a mandatory hardware-level BHB flush and RNG-seeded RSB neutralization sequence to neutralize speculative leaks.
 
-## 2. THE JET SMUGGLER: POLYMORPHIC TRANSIT
-**Mission**: Secure, Anti-Fragmented Asset Movement.
-* **Double-Blind Encryption**: Data is moved in fixed-length, encrypted "purses."
-* **Randomized Slot Distribution**: Information is "shot" into hardware slots (A, B, and C) in a non-linear, randomized pattern. This structurally eliminates temporal correlation, ensuring that external interceptors cannot align or reconstruct the data stream.
-* **Atomic Alignment**: Assets are processed in precise, hardware-aligned bursts to ensure data integrity and eliminate "torn reads" or partial interceptions during transit across security boundaries.
+## 2. ASSET TRANSIT: POLYMORPHIC DATA DISTRIBUTION (THE JET SMUGGLER)
+**Mission:** Secure, Anti-Fragmented Asset Movement.
+* **Cryptographic Encapsulation:** Assets are encapsulated into 384-byte atomic units (AES-256-GCM) prior to crossing the security boundary.
+* **Non-Linear Distribution (Randomized ABC Shuffle):** Data packets are distributed into hardware slots via a non-linear, randomized pattern to eliminate temporal correlation.
+* **Bus Atomicity:** Utilization of 6x64-byte AXI-aligned bursts ensures transactional integrity and prevents fragmented data reads.
 
+## 3. VERIFICATION ENVIRONMENT: ISOLATED MULTI-REALM VERIFICATION (THE IP SENTRY)
+**Mission:** Isolated Heuristic Analysis and Cross-Referencing.
+* **Secure Realm Isolation:** All inbound data is processed within an isolated REM environment—the "Sentry Realm."
+* **Integrity Validation:** Assets are cross-referenced against the **Verified System State Baseline (The Ark)** within this digital cleanroom to prevent unauthorized code injection.
+* **Boundary Enforcement:** Hardware-level isolation ensures any detected discrepancies are contained within the Sentry Realm, precluding lateral movement.
 
-## 3. THE RESEARCHER: THE IP SENTRY
-**Mission:** Isolated Multi-Realm Verification.
-* **The Logic:** A dedicated, isolated "Sentry ealm" acts as a digital cleanroom for all incoming data.
-* **The Process:** Assets are cross-referenced against an encrypted database within this isolated zone before they ever touch the primary vault.
-* **Total Isolation:** If the Sentry identifies a logic conflict or unauthorized code, the hardware boundary prevents the anomaly from reaching the host system or the primary archive.
-
-## 4. THE SAFE: FORENSIC UNIQUENESS (FU)
+## 4. ARCHIVAL INTEGRITY: IMMUTABLE PROOF-OF-INCEPTION (FORENSIC UNIQUENESS / FU)
 **Mission:** Immutable Archival & Proof of Inception.
-* **The Engine:** Once cleared by the Sentry, assets are committed to a sharded, encrypted hardware vault.
-* **Chronos Anchor:** Every filing is anchored to a dual-pulse digital ledger, providing a permanent, unchangeable forensic record of the date of inception.
+* **Zero-Knowledge Architecture:** Asset storage utilizes a sharded, multi-realm environment to ensure zero visibility for unauthorized agents.
+* **Chronos Anchoring:** Every archival event is anchored to a dual-pulse digital ledger, providing a legally defensible forensic record of inception.
+* **Blind-Mule Persistence:** Cloud infrastructure is used strictly as an untrusted transport layer; asset reassembly is physically impossible without authorization on verified hardware.
 
-## 5. THE RESILIENCE: CONTINUITY & RECOVERY
-**Mission:** State Persistence & The Dead-Man's Switch.
-* **The Mantle:** A dual-slot hardware buffer records the high-level session context to ensure system stability.
-* **Safety Counter:** A high-frequency hardware heartbeat monitors system logic. If the heartbeat is missed or the system drifts into an unauthorized state, the session is instantly terminated.
+## 5. SYSTEMIC RESILIENCE: IMMUTABLE HARDWARE BASELINE (THE ARK) & DUAL-SLOT CONTEXT PERSISTENCE (THE MANTLE)
+**Mission:** High-Availability Redundancy and State Persistence.
+* **The Ark (0x2516):** An immutable, factory-signed hardware baseline providing the source for the **Verified System State Baseline**.
+* **The Mantle (0x1028):** Dual-slot BBRAM context persistence facilitating seamless state recovery during hardware partition swaps.
+* **Integrity Monitoring:** A **Monotonic Hardware Heartbeat** (<100ms) ensures real-time logic auditing; failure triggers immediate system-wide isolation.
 
-## 6. THE FAIL-SAFE: UNIVERSAL GUILLOTINE
-**Mission:** Atomic Inhibit Sequence (Kill-then-Log).
-* **Vaporization:** If the system detects a catastrophic mismatch or a breach attempt, the "Warden" triggers an immediate hardware-level kill-switch.
-* **Scrub Protocol:** This process involves the immediate physical scrambling of active memory zones and a power-kill to the secure processing environment, rendering the data mathematically inaccessible.
-
-## 7. THE HUD: SOVEREIGN SHELL
-**Mission:** Hardware-Native Telemetry Interface.
-* **Interface:** Real-time visualization of the Warden and Sentry heartbeats, calibrated for high-security mobile terminal environments.
+## 6. FAIL-SAFE PROTOCOLS: ATOMIC INHIBIT SEQUENCE (THE UNIVERSAL GUILLOTINE)
+**Mission:** Deterministic Isolation and A/B State Recovery.
+* **RSI Bridge Termination:** Upon detection of an anomaly, the Warden executes an instantaneous termination of the RSI transit bridge, trapping active processes.
+* **A/B Partition Redundancy:** The system identifies the inactive partition as the secure recovery site and injects the **Verified System State Baseline (The Ark)**.
+* **Atomic Failover:** The system executes an atomic swap to the fresh partition, while the compromised partition is subjected to a targeted DMA zero-fill scrub.
 
 ---
 **Copyright © 2026 Alexander Colclough (@Lex-Col). All Rights Reserved.**
+**"F SKYNET."**
