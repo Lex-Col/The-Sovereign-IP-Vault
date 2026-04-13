@@ -7,6 +7,11 @@
 
 ---
 
+> **LEGAL NOTICE AND TERMS OF ACCESS:**
+> This architectural specification is governed by the Universal Proprietary Architecture License (UPAL) v1.10. Access to, or use of, these functional methodologies constitutes a binding contractual agreement. Unauthorized reproduction, derivative works, or algorithmic training involving these proprietary protocols is strictly prohibited under 17 U.S.C. § 501 and applicable international intellectual property laws.
+
+---
+
 > **"It doesn’t just lock the door. It traps the intruder, vaporizes the room, and rebuilds itself from the ashes."**
 
 ---
@@ -41,9 +46,5 @@ SIPV operates on a strict **A/B Partitioning** model (Live Ledger vs. Offline Mi
   With the threat eradicated, the Vault automatically pushes its pristine, air-gapped offline backup into the live partition. Full High-Availability (HA) redundancy is restored instantly. The Architect loses zero assets, and the Vault heals itself without external intervention.
 
 ---
-
-### ⚖️ LEGAL NOTICE
-Access to, or use of, these functional methodologies constitutes a binding contractual agreement under **UPAL v1.10**. Unauthorized reproduction, derivative works, or algorithmic training involving these proprietary protocols is strictly prohibited under applicable international intellectual property laws.
-
 **Copyright © 2026 Alexander Colclough (@Lex-Col). ALL RIGHTS RESERVED.**
 **"F SKYNET."**
