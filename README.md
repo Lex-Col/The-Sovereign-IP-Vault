@@ -1,53 +1,49 @@
-# 🏛️ PROPRIETARY SPECIFICATION: THE SOVEREIGN IP VAULT (SIPV)
-### Architectural Standard: Hardware-Enforced Digital Asset Management
+# 🔒 THE SOVEREIGN IP VAULT (SIPV)
+### Self-Healing, Hardware-Enforced IP Custody
 
 **Architect:** Alexander Colclough (@Lex-Col)
-**Security Baseline:** GAP V1.1 Compliance
 **Platform:** ARMv9-A Confidential Compute Architecture (CCA)
-**Classification:** PROPRIETARY – STRICTLY CONFIDENTIAL
+**License:** Universal Proprietary Architecture License (UPAL) v1.10
 
 ---
 
-> **LEGAL NOTICE AND TERMS OF ACCESS:**
-> This architectural specification is governed by the **Universal Proprietary Architecture License (UPAL) v1.10**. Access to, or use of, these functional methodologies constitutes a binding contractual agreement. Unauthorized reproduction, derivative works, or algorithmic training involving these proprietary protocols is strictly prohibited under 17 U.S.C. § 501 and applicable international intellectual property laws.
+> **"It doesn’t just lock the door. It traps the intruder, vaporizes the room, and rebuilds itself from the ashes."**
 
 ---
 
-## 1. AUTHENTICATION PROTOCOL: ECDSA-P384 HARDWARE-BACKED SIGNATURE (THE FIVE SIGN)
-**Mission:** Hardware-Attested Whitelist Activation.
-* **Verification:** System initialization is contingent upon the successful verification of the hardware-backed "Five Sign" cryptographic signature.
-* **Microarchitectural Neutralization:** Every RSI (Realm Service Interface) entry executes a mandatory hardware-level BHB flush and RNG-seeded RSB neutralization sequence to neutralize speculative leaks.
+## 🏛️ OVERVIEW
 
-## 2. ASSET TRANSIT: POLYMORPHIC DATA DISTRIBUTION (THE JET SMUGGLER)
-**Mission:** Secure, Anti-Fragmented Asset Movement.
-* **Cryptographic Encapsulation:** Assets are encapsulated into 384-byte atomic units (AES-256-GCM) prior to crossing the security boundary.
-* **Non-Linear Distribution (Randomized ABC Shuffle):** Data packets are distributed into hardware slots via a non-linear, randomized pattern to eliminate temporal correlation.
-* **Bus Atomicity:** Utilization of 6x64-byte AXI-aligned bursts ensures transactional integrity and prevents fragmented data reads.
+The **Sovereign IP Vault (SIPV)** is a zero-trust, hardware-enforced digital asset management architecture. Built natively for ARMv9-A CCA, it is designed to hold highly sensitive Intellectual Property (IP), proprietary models, and strategic manifests in a state of absolute physical isolation. 
 
-## 3. VERIFICATION ENVIRONMENT: ISOLATED MULTI-REALM VERIFICATION (THE IP SENTRY)
-**Mission:** Isolated Heuristic Analysis and Cross-Referencing.
-* **Secure Realm Isolation:** All inbound data is processed within an isolated REM environment—the "Sentry Realm."
-* **Integrity Validation:** Assets are cross-referenced against the **Verified System State Baseline (The Ark)** within this digital cleanroom to prevent unauthorized code injection.
-* **Boundary Enforcement:** Hardware-level isolation ensures any detected discrepancies are contained within the Sentry Realm, precluding lateral movement.
+SIPV is not a software-defined "secure folder." It is a multi-realm hardware environment governed by physical A/B partitioning, non-linear data transit, and a self-healing containment protocol.
 
-## 4. ARCHIVAL INTEGRITY: IMMUTABLE PROOF-OF-INCEPTION (FORENSIC UNIQUENESS / FU)
-**Mission:** Immutable Archival & Proof of Inception.
-* **Zero-Knowledge Architecture:** Asset storage utilizes a sharded, multi-realm environment to ensure zero visibility for unauthorized agents.
-* **Chronos Anchoring:** Every archival event is anchored to a dual-pulse digital ledger, providing a legally defensible forensic record of inception.
-* **Blind-Mule Persistence:** Cloud infrastructure is used strictly as an untrusted transport layer; asset reassembly is physically impossible without authorization on verified hardware.
+## ⚙️ CORE ARCHITECTURE
 
-## 5. SYSTEMIC RESILIENCE: IMMUTABLE HARDWARE BASELINE (THE ARK) & DUAL-SLOT CONTEXT PERSISTENCE (THE MANTLE)
-**Mission:** High-Availability Redundancy and State Persistence.
-* **The Ark (0x2516):** An immutable, factory-signed hardware baseline providing the source for the **Verified System State Baseline**.
-* **The Mantle (0x1028):** Dual-slot BBRAM context persistence facilitating seamless state recovery during hardware partition swaps.
-* **Integrity Monitoring:** A **Monotonic Hardware Heartbeat** (<100ms) ensures real-time logic auditing; failure triggers immediate system-wide isolation.
+### 1. The Jet Smuggler (Polymorphic Transit)
+Data transit into the Vault does not move in a straight line. SIPV utilizes the **Jet Smuggler** protocol—a high-speed transit mechanism that breaks assets into atomic parcels and routes them through a randomized, non-linear physical matrix. This mathematically eliminates an external interceptor's ability to track, correlate, or reconstruct bus telemetry.
 
-## 6. FAIL-SAFE PROTOCOLS: ATOMIC INHIBIT SEQUENCE (THE UNIVERSAL GUILLOTINE)
-**Mission:** Deterministic Isolation and A/B State Recovery.
-* **RSI Bridge Termination:** Upon detection of an anomaly, the Warden executes an instantaneous termination of the RSI transit bridge, trapping active processes.
-* **A/B Partition Redundancy:** The system identifies the inactive partition as the secure recovery site and injects the **Verified System State Baseline (The Ark)**.
-* **Atomic Failover:** The system executes an atomic swap to the fresh partition, while the compromised partition is subjected to a targeted DMA zero-fill scrub.
+### 2. The IP Sentry & The Deaf Bouncer
+The Vault is guarded by a dual-verification system operating at the R-EL2 hardware level. 
+* **The IP Sentry** acts as a blind auditor, analyzing incoming parcels in a transient, isolated sub-realm to ensure logic integrity. 
+* **The Deaf Bouncer** is the physical hardware gatekeeper. It performs zero semantic analysis of the data itself; it strictly monitors cryptographic flags and hardware heartbeats to ensure the Vault remains uncompromised.
+
+## ☢️ THE BOOBY-TRAP: CONTAINMENT & SELF-HEALING
+
+SIPV operates on a strict **A/B Partitioning** model (Live Ledger vs. Offline Mirror). If the Deaf Bouncer detects a critical logic breach or intrusion attempt, the system does not simply crash—it executes a localized, three-phase eradication protocol.
+
+* **Phase 1: Cryptographic Coma (The Drawbridge)**
+  Upon detecting an anomaly, the hardware instantly severs the physical data bridge. The Vault Realm drops into absolute isolation, trapping the active threat inside the live partition and cutting off all exfiltration vectors.
+  
+* **Phase 2: The Localized Purge**
+  Once trapped, the hardware executes a targeted physical memory scrub exclusively on the infected partition and vaporizes its associated encryption keys. The threat is left holding mathematically unreadable garbage, neutralizing the attack without risking the offline archive.
+  
+* **Phase 3: The Self-Healing Mirror**
+  With the threat eradicated, the Vault automatically pushes its pristine, air-gapped offline backup into the live partition. Full High-Availability (HA) redundancy is restored instantly. The Architect loses zero assets, and the Vault heals itself without external intervention.
 
 ---
-**Copyright © 2026 Alexander Colclough (@Lex-Col). All Rights Reserved.**
+
+### ⚖️ LEGAL NOTICE
+Access to, or use of, these functional methodologies constitutes a binding contractual agreement under **UPAL v1.10**. Unauthorized reproduction, derivative works, or algorithmic training involving these proprietary protocols is strictly prohibited under applicable international intellectual property laws.
+
+**Copyright © 2026 Alexander Colclough (@Lex-Col). ALL RIGHTS RESERVED.**
 **"F SKYNET."**
