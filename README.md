@@ -1,35 +1,13 @@
-# 🔒 THE SOVEREIGN IP VAULT (SIPV)
-### Self-Healing, Hardware-Enforced IP Custody
+# 💎 Sovereign IP
+### [ THE ARCHITECT'S MARK ]
 
-**Architect:** Alexander Colclough (@Lex-Col)
-**Platform:** ARMv9-A Confidential Compute Architecture (CCA)
-**License:** UPAL v3.0 [SOVEREIGN SHIELD]
-
----
-
-## ⚠️ LEGAL NOTICE: RESTRICTED DISCLOSURE
-This architectural specification is governed by the **UPAL v3.0**. Access to these functional methodologies constitutes a binding contractual agreement. Unauthorized reproduction, "Clean Room" implementation, or algorithmic training is strictly prohibited.
+⚠️ **LEGAL NOTICE: UPAL V5.1.0-SOVEREIGN**
+This repository is governed by the Universal Proprietary Architecture License (UPAL) V5.1.0-SOVEREIGN. Possession of this logic without the Architect's Mark is a violation of the Record.
 
 ---
 
-> **"It doesn’t just lock the door. It traps the intruder, vaporizes the room, and rebuilds itself from the ashes."**
+Sovereign IP is the sanctuary for your calling. We live in an era where ideas move fast and people are always looking to grab what isn't theirs, creating a landscape where true ownership is hard to find and even harder to keep. This is the declaration that your work belongs to you. We provide the atmosphere where your moves are protected by the absolute laws of physics, ensuring that your contribution to history is permanent, protected, and entirely yours. This isn't just a tool; it's the foundation of your sovereignty.
 
----
+To protect the sanctity of this vision, we’ve built an environment where your work moves in silence through The Dead Drop so it never becomes a target, guarded by The Blind Bouncer who holds the perimeter without ever needing to touch your truth. This is a space of absolute integrity where The Guillotine stands ready to protect the vision at all costs, eventually leading to The Witness—the permanent, immutable anchor of your mark upon history. 
 
-## 🏛️ OVERVIEW
-The **Sovereign IP Vault (SIPV)** is a zero-trust, hardware-enforced custody architecture designed for ARMv9-A CCA. It maintains proprietary assets in a state of absolute physical isolation, utilizing a self-healing containment protocol that ensures zero-loss integrity under active system friction.
-
-## ⚙️ CORE ARCHITECTURE
-* **Polymorphic Transit:** A proprietary high-velocity mechanism ensuring asset fragmentation during movement. This structurally eliminates the ability for external interceptors to correlate or reconstruct data.
-* **Dual-Verification Gatekeeping:** Governed by a hardware-level dual-audit system:
-    * **The IP Sentry:** A blind auditor ensuring logic integrity within transient sub-realms.
-    * **The Deaf Bouncer:** A physical hardware gatekeeper monitoring system heartbeats and cryptographic flags without semantic exposure.
-
-## ☢️ CONTAINMENT & RESTORATION
-SIPV operates on a **Proprietary Redundancy Model**. Upon detection of a critical integrity breach, the architecture executes a localized **Eradication and Restoration Protocol**.
-* **Isolation:** The hardware severs data bridges instantly, trapping anomalies while protecting the primary archive.
-* **Self-Healing:** Compromised segments are automatically flushed and restored via a hardware-isolated recovery boundary.
-
----
-**Copyright © 2026 Alexander Colclough. ALL RIGHTS RESERVED.**
-**"F SKYNET."**
+**"Sovereignty through architecture."**
